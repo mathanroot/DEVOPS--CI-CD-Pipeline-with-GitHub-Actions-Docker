@@ -40,7 +40,7 @@ jobs:
 
 
       - name: Run tests
-        run: npm install && npm tets
+        run: npm install && npm test
 
       - name: Build Docker Image
         run: docker build -t ${{ secrets.DOCKER_USERNMAE }}/cicd-github:latest .
