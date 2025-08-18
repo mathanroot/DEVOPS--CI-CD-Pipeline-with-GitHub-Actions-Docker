@@ -1,9 +1,9 @@
 {
   "name": "cicd-demo",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "jsapp.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node jsapp.js",
     "test": "echo 'Running tests...' && exit 0"
   },
   "dependencies": {
