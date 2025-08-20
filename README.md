@@ -2,6 +2,10 @@
 
 In this Project is Developed CICD Pipeline By Github actions.
 
+Important: 
+
+#Store secrets variables in the github for Docker Username and Password .
+
 
 The actions checks the Github repo whenever the repo makes chnages the the flow automatically push the code to docker hub with updated codes.
 
@@ -25,13 +29,19 @@ Then Pull to the Local Machine,
 
 
 ```bash
-docker pull <username>/js-app
+docker pull <username>/projectname
 
 ```
+from dockerhub...
+
+
+
+
+Then run,
 
 ```bash
-docker build -t 
-
+docker run -p 3000:3000 <username>/projectname:latest
+```
 
 
 
