@@ -1,5 +1,41 @@
 # DEVOPS--CI-CD-Pipeline-with-GitHub-Actions-Docker
 
+In this Project is Developed CICD Pipeline By Github actions.
+
+
+The actions checks the Github repo whenever the repo makes chnages the the flow automatically push the code to docker hub with updated codes.
+
+Github actions contains flow of the work .
+
+
+Dockerfile contains Docker container creation.
+
+jsapp.js contains js file contains code for the project.
+
+package.json contains packages for the code for node.
+
+deployment file contains minikube running code.
+
+Compose file is a YAML file defining services, networks, and volumes for a Docker application.
+
+
+The flow only push to the Dockerhub.
+
+Then Pull to the Local Machine,
+
+
+```bash
+docker pull <username>/js-app
+
+```
+
+```bash
+docker build -t 
+
+
+
+
+
 
 <img width="1530" height="47" alt="image" src="https://github.com/user-attachments/assets/7aae98fd-9118-420e-b4d0-0070603a80dd" />
 
